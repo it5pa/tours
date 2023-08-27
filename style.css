@@ -69,7 +69,7 @@ body{
 
 .flip-card-back a:hover{
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(227, 115, 75);
 }
 
 @media screen and (max-width: 600px) {
