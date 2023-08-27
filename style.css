@@ -1,10 +1,12 @@
 body{
     background-color: whitesmoke;
+    font-size: 1.2vw;
 }
+
 .flip-card {
     background-color: transparent;
-    width: 26vw;
-    height: 32vh;
+    width: 23em;
+    height: 14em;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     position: fixed;
@@ -54,9 +56,10 @@ body{
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    font-size: 3vw;
+  }
     .flip-card {
-        width: 69vw;
-        height: 45vh;
         top: 15vh;
         left: 5vw;
         padding: 0px 20px;
@@ -64,6 +67,6 @@ body{
     }
 
     .flip-card-back {
-        transform: rotateY(180deg) translateX(10%);
+        transform: rotateY(180deg) translateX(12%);
     }
 }
