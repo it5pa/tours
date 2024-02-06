@@ -35,6 +35,11 @@ body{
     color:lavenderblush;
   }
 
+  #next {
+    margin-top: -0.4em;
+    margin-bottom: -.6em;
+  }
+
   .flipped {
     transform: rotateY(180deg);
   }
@@ -82,7 +87,7 @@ a:hover {
         top: 15vh;
         left: 5vw;
         padding: 0px 20px;
-        transform: rotate(-5deg);
+        transform: rotate(81deg) scale(1.5) translateX(90px);
     }
 
     .flip-card-back {
