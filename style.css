@@ -27,8 +27,9 @@ body{
 
   #more {
     position: absolute;
-    bottom: 1em;
-    right: 1.5em;
+    bottom: 3em;
+    right: -0.5em;
+    transform: rotate(90deg);
   }
 
   #more:hover {
@@ -37,7 +38,8 @@ body{
 
   #next {
     margin-top: -0.4em;
-    margin-bottom: -.6em;
+    margin-bottom: -0.8em;
+    text-decoration: underline;
   }
 
   .flipped {
